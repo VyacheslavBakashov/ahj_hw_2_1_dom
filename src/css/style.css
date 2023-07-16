@@ -1,0 +1,33 @@
+body {
+  color: #999;
+}
+
+.field {
+  position: relative;
+  display: flex;
+  box-sizing: content-box;
+  height: 500px;
+  width: 500px;
+  background-color: rgb(223, 224, 223);
+  margin: auto;
+  z-index: -1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  top: 50px;
+  border-radius: 10px;
+}
+
+.field-cell {
+  display: block;
+  height: calc(25% - 5px);
+  width: calc(25% - 5px);
+  background-color: rgb(32, 190, 98);
+  z-index: 0;
+  border-radius: 50%;
+}
+
+.active {
+  background-image: url(../img/goblin.png);
+  background-position: center;
+}
